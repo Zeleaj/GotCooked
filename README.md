@@ -34,7 +34,7 @@ This project was originally developed by the following team members as part of t
 **2110215 Programming Methodology** final project (Semester 2, 2024):
 
 - **Panat Lorchatchawankul** [GitHub](https://github.com/Zeleaj) – Developer 
-- **Tanakit Banluprasong** – [Github](https://github.com/Tanakit-Kit) - Developer 
+- **Tanakit Banluprasong** [Github](https://github.com/Tanakit-Kit) - Developer 
 
 
 > This public repository is a showcase version restructured and re-uploaded by Panat.  
