@@ -1,0 +1,195 @@
+{
+    "tiles" : [
+        ["woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile"],
+        ["woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile"],
+        ["woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile"],
+        ["woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile"],
+        ["woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile"],
+        ["woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile"],
+        ["woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile"],
+        ["woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile","woodenTile"]
+    ]
+    ,"objects" : [
+        ["","chairleft","table","chairright","","","","","","","","chairleft","table","chairright",""],
+        ["","","","","","","","","","","","","","",""],
+        ["glass","glass","glass","glass","glass","glass","glass","foodDeliveryChannel","glass","glass","glass","glass","glass","glass","glass"],
+        ["trashcan","","","","","","","","","","","","","","trashcan"],
+        ["counter","","","table","table","","","","","","table","table","","","counter"],
+        ["rollingMat","","","table","table","","","","","","table","table","","","counterWithChoppingBoard"],
+        ["counter","","","","","","","","","","","","","","chiller1"],
+        ["counter","counter","stove1","sink1","counter","sink2","stove2","counter","stove3","sink3","counter","sink4","stove4","counter","counter"]
+    ]
+    ,"staticObjectsDetail" : {
+        "woodenTile" : {
+            "name":"woodenTile",
+            "staticImageURL":"image/basescene/wooden_tile_32x32.png",
+            "isCollidable":false 
+        }
+        ,
+        "chairleft" : {
+            "name":"chairleft",
+            "staticImageURL":"image/basescene/pixel_art_chair_32x32_flipped.png",
+            "isCollidable":true
+        }
+
+        ,
+        "chairright" : {
+            "name":"chairright",
+            "staticImageURL":"image/basescene/pixel_art_chair_32x32.png",
+            "isCollidable":true
+        }
+
+        ,
+        "table" : {
+            "name":"table",
+            "staticImageURL":"image/basescene/japanese_table_32x32.png",
+            "isCollidable":true
+        }
+        ,
+        "glass" : {
+            "name":"glass",
+            "staticImageURL":"image/basescene/pixel_art_window_32x32.png",
+            "isCollidable":true
+        }
+        ,
+        "trashcan" : {
+            "name":"trashcan",
+            "staticImageURL":"image/basescene/pixel_art_trash_can_32x32.png",
+            "isCollidable":true
+        }
+        ,
+        "foodDeliveryChannel" : {
+            "name":"foodDeliveryChannel",
+            "staticImageURL":"image/basescene/pixel_art_delivery_hatch_32x32.png",
+            "isCollidable":true
+        }
+        ,
+        "counter" : {
+            "name":"counter",
+            "staticImageURL":"image/basescene/counter_tile_32x32_transparent_final.png",
+            "isCollidable":true,
+            "isInteractable":true
+        }
+        ,
+        "counterWithChoppingBoard" : {
+            "name":"counterWithChoppingBoard",
+            "staticImageURL":"image/basescene/merged_counter_chopping_board.png",
+            "isCollidable":true,
+            "isInteractable":true
+        }
+        ,"rollingMat" : {
+            "name":"rollingMat",
+            "staticImageURL":"image/basescene/rolling_mat_yellow_32x32_transparent.png",
+            "isCollidable":true,
+            "isInteractable":true
+        }
+        ,"longtable" : {
+            "name":"longtable",
+            "staticImageURL":"image/basescene/pixel_art_table_128x64.png",
+            "isCollidable":true,
+            "isInteractable":true
+        }
+    }
+    
+    ,"dynamicObjectsDetail" : {
+        "stove1": {
+        "name": "stove",
+        "imageFrameURL": [
+            "image/basescene/stove_off_32x32_transparent.png",
+            "image/basescene/stove_on_32x32_transparent.png"
+        ],
+        "isCollidable": true,
+        "isInteractable": true,
+        "x": 2,
+        "y": 7
+    },"stove2": {
+        "name": "stove",
+        "imageFrameURL": [
+            "image/basescene/stove_off_32x32_transparent.png",
+            "image/basescene/stove_on_32x32_transparent.png"
+        ],
+        "isCollidable": true,
+        "isInteractable": true,
+        "x": 6,
+        "y": 7
+    },"stove3": {
+        "name": "stove",
+        "imageFrameURL": [
+            "image/basescene/stove_off_32x32_transparent.png",
+            "image/basescene/stove_on_32x32_transparent.png"
+        ],
+        "isCollidable": true,
+        "isInteractable": true,
+        "x": 8,
+        "y": 7
+    },"stove4": {
+        "name": "stove",
+        "imageFrameURL": [
+            "image/basescene/stove_off_32x32_transparent.png",
+            "image/basescene/stove_on_32x32_transparent.png"
+        ],
+        "isCollidable": true,
+        "isInteractable": true,
+        "x": 12,
+        "y": 7
+    },
+    "sink1": {
+        "name": "sink",
+        "imageFrameURL": [
+            "image/basescene/sink_closed_32x32_transparent.png",
+            "image/basescene/sink_open_32x32_transparent.png"
+        ],
+        "isCollidable": true,
+        "isInteractable": true,
+        "x": 3,
+        "y": 7
+    },"sink2": {
+        "name": "sink",
+        "imageFrameURL": [
+            "image/basescene/sink_closed_32x32_transparent.png",
+            "image/basescene/sink_open_32x32_transparent.png"
+        ],
+        "isCollidable": true,
+        "isInteractable": true,
+        "x": 5,
+        "y": 7
+    },"sink3": {
+        "name": "sink",
+        "imageFrameURL": [
+            "image/basescene/sink_closed_32x32_transparent.png",
+            "image/basescene/sink_open_32x32_transparent.png"
+        ],
+        "isCollidable": true,
+        "isInteractable": true,
+        "x": 9,
+        "y": 7
+    },"sink4": {
+        "name": "sink",
+        "imageFrameURL": [
+            "image/basescene/sink_closed_32x32_transparent.png",
+            "image/basescene/sink_open_32x32_transparent.png"
+        ],
+        "isCollidable": true,
+        "isInteractable": true,
+        "x": 11,
+        "y": 7
+    },
+    "chiller1": {
+        "name": "chiller",
+        "imageFrameURL": [
+            "image/basescene/chiller_closed_32x32.png",
+            "image/basescene/chiller_open_32x32.png"
+        ],
+        "isCollidable": true,
+        "isInteractable": true,
+        "x": 14,
+        "y": 6
+        
+        
+
+    }
+
+
+
+}
+}
