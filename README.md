@@ -20,19 +20,12 @@ The game emphasizes player interaction, time management, and modular object-orie
 
 ## 🖥️ Technologies Used
 
-- **Java 17**
-- **JavaFX SDK 17+**
+- **Java 23**
+- **JavaFX 22**
 - OOP Design Patterns (Inheritance, Interface, Polymorphism)
 - Scene management, Canvas rendering
 - Custom asset loading (images, JSON, sounds)
 
 ---
 
-## 📷 Screenshots
-
-> *(Add image files like `gameplay.png`, `ui.png`, `dish_example.png` in `screenshots/` folder and link them here)*
-
-```markdown
-![Main UI](./screenshots/ui.png)
-![Cooking Scene](./screenshots/cooking.png)
 
