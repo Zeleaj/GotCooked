@@ -33,7 +33,7 @@ Presentation Video : (https://youtu.be/6m_3IkY-Vfs)
 This project was originally developed by the following team members as part of the  
 **2110215 Programming Methodology** final project (Semester 2, 2024):
 
-- **Panat Lorchatchawankul** (Sun)[GitHub](https://github.com/Zeleaj) – Developer 
+- **Panat Lorchatchawankul** - (Sun)[GitHub](https://github.com/Zeleaj) – Developer 
 - **Tanakit Banluprasong** – (Kit)[Github](https://github.com/Tanakit-Kit) - Developer 
 
 
