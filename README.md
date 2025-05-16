@@ -3,7 +3,7 @@
 **GotCooked** is a 2D cooking game developed as my freshman year final project using **JavaFX**.  
 Players can interact with kitchen objects, collect ingredients, combine them into recipes, and serve dishes before time runs out.  
 The game emphasizes player interaction, time management, and modular object-oriented design.
-Presentation Video : (https://youtu.be/6m_3IkY-Vfs)
+Presentation Video : (https://youtu.be/6m_3IkY-Vfs) (Thai)
 ---
 
 ## 🎮 Features
